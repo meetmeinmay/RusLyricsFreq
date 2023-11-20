@@ -4,7 +4,7 @@
 In the project, I used:
 + [Genius API](https://docs.genius.com/) to fetch the artist's lyrics
 + Python nltk library (stop words for Russian) to perform needed NLP
-+ spaCy module to perform tokenization, and lemmatization.
++ spaCy module to perform tokenization, and lemmatization (spaCy branch).
 + re module - filtering non-Russian words
 + pandas - counting word frequencies
 + PyMyStem - lemmatization
