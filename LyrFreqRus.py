@@ -24,7 +24,7 @@ genius.excluded_terms = ["(Remix)", "(Live)"]
 
 # Fetch artist's songs from Genius
 def fetch_artist_songs(artist_name):
-    artist = genius.search_artist(artist_name, max_songs = 2)
+    artist = genius.search_artist(artist_name)
     lyrics = artist.save_lyrics(filename='artist.txt', extension='txt')
     return lyrics
    
