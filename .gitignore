@@ -2,3 +2,4 @@
 .DS_Store
 .conda
 artist.txt
+*.png
