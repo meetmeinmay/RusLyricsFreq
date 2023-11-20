@@ -7,9 +7,9 @@ In the project, I used:
 + spaCy module to perform tokenization, and lemmatization (spaCy branch).
 + re module - filtering non-Russian words
 + pandas - counting word frequencies
-+ PyMyStem - lemmatization
++ pymystem3 - lemmatization
 + wordcloud - creating a word cloud
-+ matplotlyb 
++ matplotlyb - drawing the cloud
 
 the project was initially written in Python in Jupiter and saved as .py code.
 
